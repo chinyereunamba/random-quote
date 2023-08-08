@@ -1,4 +1,5 @@
 body{
+    font-family: "Times New Roman", sans-serif;
     height: 97vh;
     display: grid;
     place-items: center;
@@ -21,6 +22,7 @@ body{
     background: crimson;
     color: white;
     cursor: pointer;
+    user-select: none;
 }
 
 .quote{
