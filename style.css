@@ -1,0 +1,53 @@
+body{
+    height: 97vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    width: 80%;
+    margin: auto;
+    gap: 1rem;
+}
+
+#submit{
+    padding: .8rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid crimson;
+    background: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+.quote{
+    background: beige;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+#quote{
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+#author{
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    text-align: right;
+    padding: 0 2rem;
+}
+
+#author::before{
+    content: "-- ";
+    font-weight: 500;
+}
+
+#submit{
+    margin-top: 1rem;
+}
