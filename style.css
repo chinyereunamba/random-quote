@@ -3,6 +3,7 @@ body{
     height: 97vh;
     display: grid;
     place-items: center;
+    text-align: center;
 }
 .container{
     display: flex;
@@ -28,6 +29,7 @@ body{
 .quote{
     background: beige;
     padding: 1rem 2rem;
+    width: 70%;
     text-align: center;
 }
 
@@ -52,4 +54,10 @@ body{
 
 #submit{
     margin-top: 1rem;
+}
+
+@media screen and (max-width:800px) {
+    .container{
+        width: 100%;
+    }
 }
