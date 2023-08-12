@@ -23,4 +23,10 @@ The **Static Random Quote Generator** is a straightforward web application desig
    ```html
    <script src="index.js"></script>
    ```
-   
+# Customization
+   Should you wish to customize the appearance or behavior of the quote generator, you can easily modify the provided CSS and JavaScript files to align with your      preferences. The JavaScript file includes comments to guide you through the code structure.
+
+# License
+   This project is licensed under the MIT License. Feel free to use, modify, and distribute it according to the terms of the license.
+
+   Elevate the appeal of your website with an essence of randomness and inspiration using the Static Random Quote Generator! Should you have any inquiries or          feedback, please don't hesitate to reach out.
